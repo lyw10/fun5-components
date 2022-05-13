@@ -1,7 +1,7 @@
 <template>
   <img 
     :style="styleProps" 
-    class="l-image-component" 
+    class="f-image-component" 
     @click.prevent="handleClick"
     :src="src"
   />
@@ -31,8 +31,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.l-image-component {
+.f-image-component {
   max-width: 100%;
-  position: relative !important;
 }
 </style>

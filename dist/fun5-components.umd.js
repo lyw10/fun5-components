@@ -108,7 +108,7 @@
   function render$2(_ctx, _cache, $props, $setup, $data, $options) {
     return (vue.openBlock(), vue.createBlock(vue.resolveDynamicComponent(_ctx.tag), {
       style: vue.normalizeStyle(_ctx.styleProps),
-      class: "l-text-component",
+      class: "f-text-component",
       onClick: _ctx.handleClick
     }, {
       default: vue.withCtx(() => [
@@ -149,7 +149,7 @@
   function render$1(_ctx, _cache, $props, $setup, $data, $options) {
     return (vue.openBlock(), vue.createElementBlock("img", {
       style: vue.normalizeStyle(_ctx.styleProps),
-      class: "l-image-component",
+      class: "f-image-component",
       onClick: _cache[0] || (_cache[0] = vue.withModifiers((...args) => (_ctx.handleClick && _ctx.handleClick(...args)), ["prevent"])),
       src: _ctx.src
     }, null, 12 /* STYLE, PROPS */, _hoisted_1))
@@ -184,7 +184,7 @@
   function render(_ctx, _cache, $props, $setup, $data, $options) {
     return (vue.openBlock(), vue.createElementBlock("div", {
       style: vue.normalizeStyle(_ctx.styleProps),
-      class: "l-shape-component",
+      class: "f-shape-component",
       onClick: _cache[0] || (_cache[0] = vue.withModifiers((...args) => (_ctx.handleClick && _ctx.handleClick(...args)), ["prevent"]))
     }, null, 4 /* STYLE */))
   }

@@ -1,7 +1,7 @@
 <template>
   <div 
     :style="styleProps" 
-    class="l-shape-component" 
+    class="f-shape-component" 
     @click.prevent="handleClick"
   ></div>
 </template>

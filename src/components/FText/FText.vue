@@ -1,5 +1,5 @@
 <template>
-  <component :is="tag" :style="styleProps" class="l-text-component" @click="handleClick">
+  <component :is="tag" :style="styleProps" class="f-text-component" @click="handleClick">
     {{text}}
   </component>
 </template>
@@ -31,16 +31,15 @@ export default defineComponent({
 </script>
 
 <style scoped>
-h2.l-text-component, p.l-text-component {
+h2.f-text-component, p.f-text-component {
   margin-bottom: 0;
 }
-button.l-text-component {
+button.f-text-component {
   padding: 5px 10px;
   cursor: pointer;
 }
-.l-text-component {
+.f-text-component {
   box-sizing: border-box;
   white-space: pre-wrap;
-  position: relative !important;
 }
 </style>

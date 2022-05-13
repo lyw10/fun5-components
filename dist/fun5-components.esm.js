@@ -105,7 +105,7 @@ var script$2 = defineComponent({
 function render$2(_ctx, _cache, $props, $setup, $data, $options) {
   return (openBlock(), createBlock(resolveDynamicComponent(_ctx.tag), {
     style: normalizeStyle(_ctx.styleProps),
-    class: "l-text-component",
+    class: "f-text-component",
     onClick: _ctx.handleClick
   }, {
     default: withCtx(() => [
@@ -146,7 +146,7 @@ const _hoisted_1 = ["src"];
 function render$1(_ctx, _cache, $props, $setup, $data, $options) {
   return (openBlock(), createElementBlock("img", {
     style: normalizeStyle(_ctx.styleProps),
-    class: "l-image-component",
+    class: "f-image-component",
     onClick: _cache[0] || (_cache[0] = withModifiers((...args) => (_ctx.handleClick && _ctx.handleClick(...args)), ["prevent"])),
     src: _ctx.src
   }, null, 12 /* STYLE, PROPS */, _hoisted_1))
@@ -181,7 +181,7 @@ var script = defineComponent({
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (openBlock(), createElementBlock("div", {
     style: normalizeStyle(_ctx.styleProps),
-    class: "l-shape-component",
+    class: "f-shape-component",
     onClick: _cache[0] || (_cache[0] = withModifiers((...args) => (_ctx.handleClick && _ctx.handleClick(...args)), ["prevent"]))
   }, null, 4 /* STYLE */))
 }
