@@ -1,9 +1,4 @@
 
-.f-image-component[data-v-53009fef] {
-  max-width: 100%;
-  position: relative !important;
-}
-
 h2.f-text-component[data-v-35443ab7], p.f-text-component[data-v-35443ab7] {
   margin-bottom: 0;
 }
@@ -14,4 +9,8 @@ button.f-text-component[data-v-35443ab7] {
 .f-text-component[data-v-35443ab7] {
   box-sizing: border-box;
   white-space: pre-wrap;
+}
+
+.f-image-component[data-v-53009fef] {
+  max-width: 100%;
 }
