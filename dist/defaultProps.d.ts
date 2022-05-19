@@ -26,8 +26,8 @@ export interface TextComponentProps extends CommonComponentProps {
     fontWeight: string;
     fontStyle: string;
     textDecoration: string;
-    lineHeight: string;
     textAlign: string;
+    lineHeight: string;
     color: string;
     backgroundColor: string;
 }

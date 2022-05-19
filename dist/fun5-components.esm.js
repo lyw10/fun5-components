@@ -34,8 +34,8 @@ const textDefaultProps = {
     fontWeight: 'normal',
     fontStyle: 'normal',
     textDecoration: 'none',
-    lineHeight: '1',
     textAlign: 'left',
+    lineHeight: '1',
     color: '#000000',
     backgroundColor: '',
     ...commonDefaultProps
